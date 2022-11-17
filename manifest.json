@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+
+  "name": "Let It",
+  "version": "0.0.1",
+  "description": "Choose your adventure",
+  "permissions": ["storage", "tabs"],
+
+  "action": {
+    "default_popup": "index.html",
+    "default_title": "Let it"
+  },
+
+  "icons": {
+    "48": "/assets/icon48.png"
+  }
+}

@@ -1,0 +1,50 @@
+body {
+  height: 480px;
+  width: 480px;
+  /* font-family: roboto; */
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+}
+
+#money {
+  visibility: hidden;
+}
+
+#burn {
+  visibility: hidden;
+}
+
+.btn-wrapper {
+  visibility: visible;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.btn {
+  display: inline-block;
+  padding: 0.5em 3em;
+  margin: 0 0.3em 0.3em 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 400;
+  color: #ffffff;
+  text-align: center;
+  transition: all 0.15s;
+  border-radius: 1rem;
+}
+
+#burn-btn {
+  color: red;
+  border: 0.16em solid red;
+}
+
+#money-btn {
+  color: green;
+  border: 0.16em solid green;
+}
+
+h2 {
+  text-align: center;
+}
